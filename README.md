@@ -13,19 +13,19 @@ Antes de ejecutar el script, asegúrate de tener los siguientes requisitos:
 * Token de acceso a la API de ipinfo.io: Necesitarás registrarte en ipinfo.io y obtener un token personal para hacer solicitudes a la API.
 
 ## ⚡Instalación
-1. Clonar el repositorio:
+1. **Clonar el repositorio:**
 ```
 git clone https://github.com/JosueChavezz19/IP_GEO.git
 cd IP_GEO
 ```
 
-2. Instalar dependencias:
+2. **Instalar dependencias:**
 
 Instalar las librerías necesarias:
 ```
 pip install ipinfo python-dotenv
 ```
-3. Configurar el archivo .env:
+3. **Configurar el archivo .env:**
 
 Crea un archivo llamado .env en el directorio raíz del proyecto y agrega tu token de acceso de la siguiente manera:
 ```
@@ -39,11 +39,11 @@ ACCESS_TOKEN=tu_token_de_ipinfo
 Para ejecutar el script, debes proporcionar la IP objetivo como argumento. El comando básico es el siguiente:
 
 ```
-python geolocalizacion_ip.py -t <IP_OBJETIVO>
+python IP_GEO.py -t <IP_OBJETIVO>
 ```
 Ejemplo:
 ```
-python geolocalizacion_ip.py -t 8.8.8.8
+python IP_GEO.py -t 8.8.8.8
 ```
 Este comando consultará la dirección IP 8.8.8.8 y te devolverá detalles sobre la ubicación de esa IP.
 
