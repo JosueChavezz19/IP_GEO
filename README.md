@@ -1,7 +1,7 @@
-# Geolocalización de IP
+# 🌎 Geolocalización de IP 🗺️
 Este es un script en Python que permite geolocalizar una dirección IP utilizando la API de ***ipinfo.io***. El script toma una dirección IP como argumento y devuelve información detallada sobre su ubicación, proveedor de servicios, y más.
 
-## Requisitos
+## ⚡ Requisitos
 Antes de ejecutar el script, asegúrate de tener los siguientes requisitos:
 
 * Python 3.x instalado en tu sistema.
@@ -12,7 +12,7 @@ Antes de ejecutar el script, asegúrate de tener los siguientes requisitos:
 
 * Token de acceso a la API de ipinfo.io: Necesitarás registrarte en ipinfo.io y obtener un token personal para hacer solicitudes a la API.
 
-## Instalación
+## ⚡Instalación
 1. Clonar el repositorio:
 ```
 git clone https://github.com/tu_usuario/tu_repositorio.git
@@ -31,9 +31,11 @@ Crea un archivo llamado .env en el directorio raíz del proyecto y agrega tu tok
 ```
 ACCESS_TOKEN=tu_token_de_ipinfo
 ```
-> El archivo .env debe estar en el mismo directorio que el script.
+> [!NOTE]
+>
+> El token de acceso debe de estar en el archivo .env y no en el script, esto por razones de seguridad.
 
-## Uso
+## ⚡Uso
 Para ejecutar el script, debes proporcionar la IP objetivo como argumento. El comando básico es el siguiente:
 
 ```
@@ -45,7 +47,7 @@ python geolocalizacion_ip.py -t 8.8.8.8
 ```
 Este comando consultará la dirección IP 8.8.8.8 y te devolverá detalles sobre la ubicación de esa IP.
 
-## Descripción del código
+## ⚡Descripción del código
 El script hace uso de los siguientes componentes:
 
 1. **Carga del archivo .env**: El token de acceso se carga desde un archivo .env para mantener la seguridad del código.
@@ -56,7 +58,7 @@ El script hace uso de los siguientes componentes:
 
 4. **Manejo de errores**: Si ocurre un error al obtener los detalles de la IP (por ejemplo, si la API no responde o la IP no es válida), el script mostrará un mensaje de error y terminará la ejecución.
 
-## Ejemplo de salida
+## ⚡Ejemplo de salida
 Cuando ejecutes el script, la salida será algo similar a esto:
 
 ```
