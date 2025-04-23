@@ -47,17 +47,6 @@ python IP_GEO.py -t 8.8.8.8
 ```
 Este comando consultará la dirección IP 8.8.8.8 y te devolverá detalles sobre la ubicación de esa IP.
 
-## ⚡Descripción del código
-El script hace uso de los siguientes componentes:
-
-1. **Carga del archivo .env**: El token de acceso se carga desde un archivo .env para mantener la seguridad del código.
-
-2. **Argumentos de línea de comando**: El script utiliza la librería argparse para manejar los argumentos desde la línea de comandos. El único argumento requerido es la dirección IP que se desea geolocalizar.
-
-3. **Consulta a la API de ipinfo.io**: Usando el token de acceso, se realiza una solicitud a la API de ipinfo.io para obtener detalles sobre la IP proporcionada.
-
-4. **Manejo de errores**: Si ocurre un error al obtener los detalles de la IP (por ejemplo, si la API no responde o la IP no es válida), el script mostrará un mensaje de error y terminará la ejecución.
-
 ## ⚡Ejemplo de salida
 Cuando ejecutes el script, la salida será algo similar a esto:
 
