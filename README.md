@@ -15,8 +15,8 @@ Antes de ejecutar el script, asegúrate de tener los siguientes requisitos:
 ## ⚡Instalación
 1. Clonar el repositorio:
 ```
-git clone https://github.com/tu_usuario/tu_repositorio.git
-cd tu_repositorio
+git clone https://github.com/JosueChavezz19/IP_GEO.git
+cd IP_GEO
 ```
 
 2. Instalar dependencias:
